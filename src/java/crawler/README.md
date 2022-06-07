@@ -1,11 +1,16 @@
 # Crawler
 
-Written in Java 11
+## Usage
 
-### Compile and Run
+### Compile
 
 ```bash
-java -Dfile.encoding=UTF-8 -classpath ./target/classes com.company.crawler.Main
+mvn install
+```
 
-Hello world!
+### Run
+
+```bash
+cd main
+mvn exec:exec
 ```

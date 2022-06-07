@@ -1,4 +1,4 @@
-package com.company.crawler;
+package com.company.crawler.main;
 
 public class Main {
     public static void main(String[] args) {
