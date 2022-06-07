@@ -13,6 +13,8 @@
 
     <modules>
         <module>main</module>
+        <module>api</module>
+        <module>http</module>
     </modules>
 
     <properties>
@@ -23,7 +25,16 @@
 
     <dependencyManagement>
         <dependencies>
-
+            <dependency>
+                <groupId>com.company.crawler</groupId>
+                <artifactId>api</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.company.crawler</groupId>
+                <artifactId>http</artifactId>
+                <version>${project.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
